@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-image: url(../images/beanstalk.png);
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+h1{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.stick{
+    position: sticky;
+    top: 0px;
+}
+.navbar {
+    height: 100px;
+    padding: 0;
+    border-bottom: 1px solid #888;
+
+}
+.navbar-brand {
+padding: 30px;
+padding-top: 10px;
+height: 100px;
+line-height: 80px;
+font-size: 30px;
+font-weight: bold;
+background-color: #4aaaa5;
+color: #fff;
+margin-left: 15%;
+}
+
+.navbar-toggle {
+/* (80px - button height 34px) / 2 = 23px */
+margin-top: 23px;
+padding: 9px 10px !important;
+}
+.active{
+    color: #333;
+}
+.nav-item{
+    padding-top: 6px;
+    padding-bottom: 0px;
+    font-size: 20px;
+    color: #888;
+
+}
+.nav-item:hover{
+    color: #333;
+}
+.borderNav{
+    padding: 0;
+    font-size: 25px;
+    color: #888;
+}
+#current{
+    font-weight: bold;
+}
+
+.navbar-nav{
+    margin-right: 15%;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    position: absolute;
+    right: 0;
+}
+#whiteText{
+    color: white;
+}
+.container-fluid{
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-bottom: 8%;
+    width: 70%;
+    padding: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.header2{
+    color: #4aaaa5;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+    border-bottom:1px solid #dddddd; 
+    font-family: 'Times New Roman', Times, serif;  
+    font-weight: bold;
+}
+img{
+    float: left;
+    padding: 0px;
+    margin: 25px;
+}
+p{
+    padding-bottom: 0px;
+    color: #777777;
+    line-height: 1.6;
+    font-size: 27px;
+    padding: 25px;
+    padding-bottom: 0px;
+    margin: 0;
+}
+footer{
+    background-color: #666;
+    border-top: 10px solid #4aaaa5;
+    color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+span{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#stick{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 10px solid #4aaaa5;
+    background-color: #666666;
+    padding-top: 25;
+    padding: 0px;
+    margin: 0px;
+}
+.bottom{
+    color: white;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 0px;
+    margin-top: 10px;
+    margin: 5px;
+    font-size: 15px;
+}
+@media only screen and (max-width:768px){
+    .navbar-nav{
+        margin-right: 12%;
+    }
+}
